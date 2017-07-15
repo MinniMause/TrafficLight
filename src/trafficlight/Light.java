@@ -2,8 +2,8 @@ package trafficlight;
 
 public class Light {
 
-	String name;
-	int time;
+	private String name;
+	private int time;
 
 	public Light(String name, int time) {
 		this.name = name;
@@ -13,7 +13,6 @@ public class Light {
 	public void show() {
 		System.out.println(this.name);
 		pause();
-
 	}
 
 	private void pause() {
